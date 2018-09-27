@@ -10,10 +10,7 @@ def key_for_min_value(name_hash)
   theKey = nil 
   
   name_hash.each do |key, val|
-    if !key 
-      theKey = nil 
-      break 
-    elsif i == 0 
+    if i == 0 
       n = val
       theKey = key 
       i += 1 
